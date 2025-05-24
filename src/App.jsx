@@ -1,16 +1,14 @@
 import "./App.css";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import SectionOne from "./components/SectionOne";
+import Header from "./assets/components/Header";
+import Main from "./assets/components/Behruz/Main";
+import Footer from "./assets/components/Behruz/Footer";
 
 function App() {
   return (
     <>
-      <div>
-        <Header />
-        <SectionOne />
-        <Footer />
-      </div>
+      <Header />
+      <Main />
+      <Footer />
     </>
   );
 }
