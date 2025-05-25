@@ -1,0 +1,45 @@
+.section-one {
+  display: flex;
+  max-width: 1512px;
+  margin-inline: auto;
+  text-align: start;
+  align-items: center;
+  justify-content: space-between;
+  gap: 158px;
+  margin-block: 55px 60px ;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 110.00000000000001%;
+}
+
+.section-one-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.section-one-content > p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 139%;
+  width: 648px;
+}
+
+.section-one-content > button {
+  width: 249px;
+  height: 42px;
+  gap: 10px;
+  border-radius: 50px;
+  background: linear-gradient(100.98deg, #43a548 -4.14%, #52e259 108.69%);
+  border: none;
+}
+
+.section-one-content > button > a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+}

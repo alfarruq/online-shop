@@ -1,0 +1,65 @@
+header {
+  max-width: 1512px;
+  margin-inline: auto;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  margin-block: 24px;
+}
+
+.logo-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
+
+header ul {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+  align-items: center;
+  text-align: center;
+}
+
+.Join button {
+  width: 72px;
+  height: 40px;
+  gap: 10px;
+  border-radius: 50px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  transition: 0.2s;
+  background-color: #43a548;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header li > a {
+  color: black;
+}
+
+header li > button > a {
+  color: white;
+}
+
+header li > a:hover {
+  color: #43a548;
+  transition: 0.1s;
+}
+
+.logo {
+  display: flex;
+  gap: 8px;
+  font-weight: 600;
+  font-size: 24px;
+  align-items: center;
+}
+
+header li > button:hover {
+  background: linear-gradient(100.98deg, #43a548 -4.14%, #52e259 108.69%);
+}
