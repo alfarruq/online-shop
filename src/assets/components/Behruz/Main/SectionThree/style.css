@@ -1,3 +1,95 @@
 .pop_pro {
   background-color: #ebf5eb;
 }
+
+.pop_pro * {
+  line-height: 139%;
+}
+
+.pop_pro .container {
+  padding: 60px 100px;
+}
+
+.pop_pro .menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pop_pro h3 {
+  font-weight: 500;
+  font-size: 28px;
+}
+
+.pop_pro .menu button {
+  border-radius: 100px;
+  border: none;
+  padding: 12px 30px;
+  background: linear-gradient(100.98deg, #43a548 -4.14%, #52e259 108.69%);
+  color: #f7f8f8;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.pop_pro .products {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.pop_pro .product {
+  width: 424px;
+  height: 348px;
+  border-radius: 40px;
+  background-color: #ffffff;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pop_pro span {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pop_pro span h4 {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.pop_pro span button {
+  border-radius: 100px;
+  padding: 4px 10px;
+  border: 1px solid #43a548;
+  background: none;
+  font-weight: 500;
+  font-size: 14px;
+  color: #43a548;
+}
+
+.pop_pro ul {
+  padding-left: 10px;
+}
+
+.pop_pro li {
+  font-weight: 400;
+  font-size: 14px;
+  color: #838684;
+}
+
+.button-row {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.pop_pro .more {
+  color: #43a548;
+  font-weight: 400;
+  font-size: 14px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
